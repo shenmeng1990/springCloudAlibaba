@@ -12,6 +12,7 @@
     <modules>
         <module>nacos-discovery-server</module>
         <module>nacos-discovery-client</module>
+        <module>nacos-config-example</module>
     </modules>
 
     <properties>
