@@ -1,0 +1,16 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: mysqlos:8848
+  application:
+    name: nacos-discovery-client
+server:
+  port: 18083
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+
